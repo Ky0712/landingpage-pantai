@@ -10,7 +10,10 @@ const navItems = [
   { label: "Keunggulan", href: "#keunggulan" },
   { label: "Testimoni", href: "#testimoni" },
   { label: "Pemesanan", href: "#booking" },
+<<<<<<< HEAD
   { label: "List Harga", href : "/price-list" },
+=======
+>>>>>>> da02872 (Initial commit)
 ];
 
 const SiteHeader = () => {

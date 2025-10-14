@@ -8,7 +8,10 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+<<<<<<< HEAD
 import PriceList from "./pages/PriceList";
+=======
+>>>>>>> da02872 (Initial commit)
 import SiteHeader from "./components/layout/SiteHeader";
 
 const queryClient = new QueryClient();
@@ -23,7 +26,10 @@ const App = () => (
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
+<<<<<<< HEAD
           <Route path="/Price-List" element={<PriceList />} />
+=======
+>>>>>>> da02872 (Initial commit)
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
